@@ -1,0 +1,25 @@
+{
+    "name": "admin/slim",
+    "description": "slim project",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Yaroslav Bondarchuk",
+            "email": "bondarchuck.yaroslaw@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "slim/slim": "^4.11",
+        "slim/psr7": "^1.6",
+        "slim/twig-view": "^3.3",
+        "twig/twig": "^3.4",
+        "ext-pdo": "^7.4",
+        "php": "^7.4"
+    }
+}
